@@ -7,8 +7,8 @@ test:
   image: adoptopenjdk/openjdk11
   stage: continuose-integration
   script:
-    - cd component 
-    - ./gradlew test
+    - cd app 
+    - ./gradlew test --info
     - cd ..
 
 
